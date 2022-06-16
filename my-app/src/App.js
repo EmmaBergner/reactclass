@@ -1,9 +1,11 @@
-import css from './App.module.css';
+
+import StatefulGreeting from "./components/StatefulGreeting";
 
 function App() {
   return (
-    <div className={css.App}>
+    <div className="App">
       {/* Add your components here */}
+      <StatefulGreeting greeting = "Oh beautiful" />
     </div>
   );
 }
